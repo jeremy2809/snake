@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+h2{
+
+    color:blue;
+}
+
+#score{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+#favDialog{
+    background-color: aqua;
+    text-align: center;
+}
+
+.btn{
+    margin:15px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    border: none;
+}
+
+form input:hover, .btn:hover{
+    cursor: pointer;
+
+}

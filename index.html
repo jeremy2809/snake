@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snake</title>
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" />
+
+</head>
+<body>
+        <canvas id="canvas" width="500" height="500" style="background-color:black"></canvas>
+        <div id="score">
+        <h2>Score</h2>
+        <p>0</p>
+        </div>
+   
+        <dialog id="favDialog">
+                <form>
+                        <p>Veuillez choisir la difficulté:</p>
+                        <div>
+                          <input type="radio" id="choix"
+                           name="difficulte" value="Facile">
+                          <label for="difficulte">Facile</label>
+                      
+                          <input type="radio" id="choix"
+                           name="difficulte" value="Moyen">
+                          <label for="difficulte">Moyen</label>
+                      
+                          <input type="radio" id="choix"
+                           name="difficulte" value="Difficile">
+                          <label for="difficulte">Difficile</label>
+                          
+                          <input type="radio" id="choix"
+                           name="difficulte" value="Extra_Difficile">
+                          <label for="difficulte">Extra Difficile</label>
+                        </div>
+                        <div >
+                          <button class="btn" type="submit">Envoyer</button>
+                        </div>
+                      </form>
+          </dialog>
+</body>
+<script src="index.js"></script>
+
+</html>
